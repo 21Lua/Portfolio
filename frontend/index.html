@@ -1,91 +1,112 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    
-    <title> Tech: Meu Portifólio </title>
-<meta charset="utf-8">
-<meta name="descrição"content="Portifólio">
-<meta name=" viewport"content="width=device-width, initial-scale=1.0">
-<script  src = " https://use.fontawesome.com/releases/v5.15.3/js/all.js " data-auto-replace-svg = " nest " ></script>
+    <head>
+       <title>Tech: Portfólio </title>
+       <meta charset="utf-8">
+       <meta name="descrição" content="Portfólio">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="index.css">
+    <link  rel="stylesheet " href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" > 
+
 </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li> Formação</li>
-                <li>Portifólio</li>
-                <li>Contatos</li>
-            </ul>
-        </nav>
-    </header>
+     <body>
+        <header class="header-menu">
+            <nav>
+                <ul class="lista-Menu"> 
+                    <li>
+                         <a href="#Formação">Formação</a>
+                        </li>
+                    <li>
+                       <a href="#Portfólio">Portfólio</a> 
+                    </li>
 
-    <main>
+                    <li> 
+                        <a href="#Contatos"> Contatos</a>
+                    </li>
+               </ul>          
+            </nav>
+        </header>
 
-<section> 
-    <article>
-        <div> <img src="img/foto perfil.jpg"> </div>
-        
-        <h1> Leticia Bispo</h1>
-        <h2> Desenvolvedora Web</h2>
-        <p>
-            
-         <name="" value="">
-        </p>
-    </article>
+         <main class="principal">
 
-</section>
+           <section>
+               <article class=" subcontainer-principal container">
+                <div>
+                    <img src="img/foto perfil.jpg">
+                </div>
+               
+                <div> <h1 class=" nome completo">Leticia Bispo</h1>
+                    <h2 class="profissão">Desenvolvedora Web</h2>
+                </div>
+            </div class=" texto sobre">
+            <p>
+               Sou estudante no Minas programam, to buscando meu primeiro emprego na área da programação.
+            </p>
+                <div>
 
-
-<section> 
-    <article>
-            <h3>Formação</h3>
-
-             <ul>       
-             <li> <p>Curso de Programação</p>
-                <a href="https://minasprogramam.com/ " target="_blank" >Instituto Minas Programam</a> 
+                </article>
+           </section>
+       
+           <section>
+            <article id="Formação" class=" container article-lista">
+                <div>
+                    <h3 class=" topico-principal">Formação</h3>
+                </div>
+                
+            <div class="lista-item">
+                <ul>   
+                    <li> 
+                <p class="lista-titulo" >Curso de Programação</p>
+                     <a href="https://minasprogramam.com/ " target="_blank" >Instituto Minas Programam</a> 
+                <p class="lista-descrição"></p>
+                    </li>
+              <li> 
+                 <p>Ensino Médio</p>
+                     <a href="http://www.educacao.sp.gov.br/cgrh/escolas/joao-batista-de-carvalho-monsenhor/" target="_blank" > Escola Estadual Mosenhor João Batista</a> 
              </li>
-        
-             <li> <p>Ensino Médio Completo</p>
-                <a href="http://www.educacao.sp.gov.br/cgrh/escolas/joao-batista-de-carvalho-monsenhor/" target="_blank" > Escola Estadual Mosenhor João Batista</a> 
-             </li>
-             </ul>
-</article> 
-  </section>
-
-
-<section> 
-    <article>
-            <h3> Portifólio</h3>
-             <ul>
+     
              <li> 
-             <p>Curso de programação</p>
-             <a href="https://minasprogramam.com/ " target="_blank">Instituto Minas Programam</a>  
+                <p>Curso de Ingles</p>
+                     <a href="https://www.etcintercambio.com.br/soul-bilingue?gclid=Cj0KCQiAqbyNBhC2ARIsALDwAsC4DD91Oocf0K0_wQ8zxkhYOz633YHyC6ToGfomelHhJme2riBiZegaAjsKEALw_wcB" target="_blank"> Soul Bilingue </a>
              </li>
-             </ul> 
-</article> 
-  </section>
-    
-</main>
-        
-<footer>
-    <ul>
-        <li>
-            <i class="fas fa-envelope-square"></i>
-            <a href="mailto: leticiabispo29@gmail.com">leticiabispo29@gmail.com</a>
-            
-        </li>
-        <li>
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/leticia-bispo-53988820b/" target="_blank">Leticia Bispo</a>
-            
-        </li>
-        <li> 
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/21Lua" target="_blank">21Lua</a>
-        </li>
-    </ul>
-</footer>
+                </ul>
+            </div>
+                    
+                   
+           </article>
+        </section>
 
+            <section class="wrapper-Portfólio"> 
+                <article id="Portfólio" class="container article-lista">
+                    <div>    
+                        <h3 class="topico-principal"> Portfólio</h3>
+                    </div>
+                    <div class="lista-item">
+                    <ul>
+                       <li> 
+                            <p class="lista-titulo">Curso de programação</p>
+                                <a href="https://minasprogramam.com/ " target="_blank">Instituto Minas Programam</a>  
+                        </li>
+                    </ul> 
+                </div>
+       
+     </article> 
+         </section>
+    </main>
+    
+    <footer class="footer"> 
+        <div class=" container"> 
+            <ul id="Contatos" class="lista rodapé"> 
+                <li><i class="fas fa-envelope-square"></i><a href="mailto: leticiabispo29@gmail.com">leticiabispo29@gmail.com</a></li>
+                <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/leticia-bispo-53988820b/" target="_blank">Leticia Bispo</a></li>
+                <li><i class="fab fa-github"></i><a href="https://github.com/21Lua" target="_blank">21Lua</a></li>
+             </ul>
+        </div>  
+    </rodapé>
+    </footer>
+    
 </body>
 </html>
